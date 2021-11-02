@@ -6,7 +6,7 @@ public class GameApp {
          //JFrame.setDefaultLookAndFeelDecorated(true);
          javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new Frame();
+               MainFrame.getInstance();
             }
     });
 
